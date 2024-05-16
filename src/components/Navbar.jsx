@@ -9,21 +9,21 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar bg-base-100 flex justify-between mt-4 border-b-2 h-28">
+      <div className="navbar bg-base-100 flex items-end justify-between mt-4 pb-0 border-b-2 h-28">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">SNEAKERS</a>
+          <a className="btn btn-ghost text-xl mb-6">SNEAKERS</a>
         </div>
 
         <div className="mr-96">
-          <ul className="menu menu-horizontal px-1 flex gap-4">
-            <li>Collection</li>
-            <li>Men</li>
-            <li>Women</li>
-            <li>About</li>
-            <li>Contact</li>
+          <ul className="menu menu-horizontal px-1 flex gap-4 ">
+            <li className='hover:border-b-4 transition-all hover:border-b-orange-600  cursor-pointer pb-8 '>Collection</li>
+            <li className='hover:border-b-4 transition-all hover:border-b-orange-600  cursor-pointer pb-8'>Men</li>
+            <li className='hover:border-b-4 transition-all hover:border-b-orange-600  cursor-pointer pb-8'>Women</li>
+            <li className='hover:border-b-4 transition-all hover:border-b-orange-600  cursor-pointer pb-8'>About</li>
+            <li className='hover:border-b-4 transition-all hover:border-b-orange-600  cursor-pointer pb-8'>Contact</li>
           </ul>
         </div>
-        <div className="flex gap-4">
+        <div className="flex gap-4 mb-6">
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
         <div className="indicator">
